@@ -6,7 +6,7 @@ http.createServer(function (req, res) {
    res.writeHead(200, {'Content-Type': 'text/plain'});
 
    // Send the response body as "Hello, World !!!"
-   res.end('node js hello world !!! ok \n');
+   res.end('node js hello world !!! ok 12 \n');
 }).listen(8000);
 
 // This message will be printed in the console
